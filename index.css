@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-family: 'Manjari', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.valign-wrapper{
+  padding-top: 100px;
+
+}
+
+.citatNavn{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+.cellection-item.ard.blue-grey.darken-1{
+  height: 300px; 
+  border: 1px solid white;
+  position: relative;
+  /* margin: 10px; */
+}
+
+.cellection-item.ard.blue-grey.darken-1:hover{
+  color: rgb(226, 226, 226);
+}
+
+.collection{
+  border: none!important;
+}
+
+
+form {
+  margin: 100px 0;  
+}
+
+.fjernKnap{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+/* 
+.collection {
+  display: flex;
+  border: none;
+}
+.cellection-item {
+  border: solid 1px #bdbdbd;
+  margin: 10px;
+  padding: 20px;
+  width: 500px;
+
+}
+
+.citatNavn{
+  margin-top: 1em;
+  white-space: nowrap;
+  display: block;
+}
+.citatAlder{
+  display: block;
+} */
